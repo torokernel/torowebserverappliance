@@ -1,6 +1,6 @@
 # Deploying the Static Webserver appliance to host the Toro's website
 ## Introduction
-This repository contains the scripts to deploy the Toro's website by using the static webserver appliance. This script has been tested on a OVH **s1-2** host that costs about 3 euros per month. The host is a Debian 10.
+This repository contains the scripts to deploy the Toro's website by using the static webserver appliance. These scripts have been tested on an OVH host (**s1-2**), which has Debian 10. Once the appliance is deployed, the website can be reached at port 4000.
 
 ## How to launch the webserver appliance?
 This setup creates the directory named `staticwebserver` in `$HOME` from which the following scripts are invoked:
@@ -16,7 +16,7 @@ chmod +x ./launch.sh
 ```
 
 ## What does the installation do?
-The installer and the launcher do the following steps to prepare, build, and finally launch the webserver appliance to host the Toro's website.
+The installer and the launcher do the following steps to prepare, build, and finally, launch the webserver appliance to host the Toro's website:
 
 ### Step 1. Update and install tools
 ```bash
