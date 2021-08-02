@@ -7,8 +7,8 @@ This setup creates the directory named `staticwebserver` in `$HOME` from which t
 ```bash
 mkdir staticwebserver
 cd staticwebserver
-wget https://github.com/torokernel/torowebserverappliance/blob/main/scripts/install.sh
-wget https://github.com/torokernel/torowebserverappliance/blob/main/scripts/launch.sh
+wget https://raw.githubusercontent.com/torokernel/torowebserverappliance/main/scripts/install.sh
+wget https://raw.githubusercontent.com/torokernel/torowebserverappliance/main/scripts/launch.sh
 chmod +x ./install.sh
 chmod +x ./launch.sh
 ./install.sh
